@@ -77,7 +77,7 @@ body.chapters-show #main {
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
   background-size: 85px auto, 85px auto;
-  filter: invert(25%) sepia(60%) saturate(400%) hue-rotate(175deg) brightness(85%) contrast(90%);
+  filter: invert(25%) sepia(60%) saturate(320%)  hue-rotate(120deg) brightness(82%) contrast(90%);
 }
 
 .work.blurb > *,
@@ -407,8 +407,8 @@ body .menu {
   background-position: center center !important;
   background-size: contain !important;
   opacity: 0.9;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 #footer .dropdown-menu::after,
@@ -461,12 +461,12 @@ ul.tags li.warnings a.tag,
 ul.tags li.relationships a.tag,
 ul.tags li.characters a.tag,
 ul.tags li.freeforms a.tag {
-  color: #264A73 !important;
+  color: #A8D2C1 !important;
 }
 
 dd.rating a.tag,
 dd.category a.tag {
-  color: #1565c0 !important;
+  color: #8FC6B5 !important;
   background: transparent !important;
   border: none !important;
 }
@@ -491,37 +491,37 @@ li.relationships + li.freeforms::before {
 
 ul.tags li.warnings:first-child::before {
   content: "❧ Archive Warnings ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 li.warnings + li.relationships::before {
   content: "❧ Relationships ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 li.relationships + li.characters::before {
   content: "❧ Characters ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 li.characters + li.freeforms::before {
   content: "❧ Additional Tags ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 li.warnings + li.characters::before {
   content: "❧ Characters ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 li.warnings + li.freeforms::before {
   content: "❧ Additional Tags ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 li.relationships + li.freeforms::before {
   content: "❧ Additional Tags ❧";
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 h5.fandoms.heading a.tag {
@@ -786,7 +786,7 @@ ul.actions li {
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
   background-size: 160px auto, 160px auto;
-  filter: invert(25%) sepia(60%) saturate(400%) hue-rotate(175deg) brightness(85%) contrast(90%);
+  filter: invert(25%) sepia(60%) saturate(320%)  hue-rotate(120deg) brightness(82%) contrast(90%);
 }
 
 dl.work.meta > dt {
@@ -891,7 +891,7 @@ dl.work.meta > dt.language::before,
 dl.work.meta > dt.series::before,
 dl.work.meta > dt.collections::before,
 dl.work.meta > dt.stats::before {
-  color: #264A73 !important;
+  color: #A8D2C1 !important;
 }
 
 dl.work.meta dd.rating a.tag,
@@ -903,7 +903,7 @@ dl.work.meta dd.character a.tag,
 dl.work.meta dd.freeform a.tag,
 dl.work.meta dd.language,
 dl.work.meta dd.series a {
-  color: #264A73 !important;
+  color: #A8D2C1 !important;
 }
 
 .wrapper dl.work.meta dd.stats dl.stats {
@@ -1272,8 +1272,8 @@ div.download a:focus,
     left 0.8rem bottom 0.8rem,
     right 0.8rem bottom 0.8rem;
   background-size: 60px auto, 60px auto, 60px auto, 60px auto;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%);
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%);
 }
 
 #dashboard.own a,
@@ -1394,8 +1394,8 @@ div.download a:focus,
   border-radius: 0 !important;
   z-index: 0;
   opacity: 0.8;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%);
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%);
 }
 
 .home .primary.header.module ul.actions {
@@ -1439,30 +1439,30 @@ div.download a:focus,
 .status .rec,
 img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
   background-image: url("https://64.media.tumblr.com/4fc7092db7cec1ae476ed9c111b10a01/f85c50a5736af30f-d2/s2048x3072/7cd33cc2d1118ed7014c29c5bc3e435f37d87679.png") !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 .status .public,
 img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
   background-image: url("https://64.media.tumblr.com/24d439468a38dfc9361b49fd22046342/f85c50a5736af30f-99/s2048x3072/e13f376eebaa845f2fc0d8f4815fc74a54d9031a.png") !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 .status .private,
 .status .private .text,
 img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
   background-image: url("https://64.media.tumblr.com/cb4158740bbcb2f247ea46719e7a8221/f85c50a5736af30f-46/s2048x3072/a71de7857fe0f6b9789aae7240b7b5040cdcce1b.png") !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 .status .hidden,
 img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
   background-image: url("https://64.media.tumblr.com/153d90764bb41fdf370f220ed3498c62/f85c50a5736af30f-41/s2048x3072/88aa2c51f46ee8f0bbbc547686088bc598b701b5.png") !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 .chapter .secondary,
@@ -1740,8 +1740,8 @@ li.bookmark.blurb ul.tags li a.tag {
   border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%);
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%);
 }
 
 #header #greeting .dropdown > a[href*="/works/new"] {
@@ -1770,8 +1770,8 @@ li.bookmark.blurb ul.tags li a.tag {
 #header #greeting a[href*="/users/logout"]:hover {
   background: transparent !important;
   box-shadow: none !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(95%) contrast(90%);
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(95%) contrast(90%);
 }
 
 #greeting .menu {
@@ -1838,7 +1838,7 @@ li.bookmark.blurb ul.tags li a.tag {
   font-size: 0.95em !important;
   font-variant: small-caps;
   letter-spacing: 0.12em;
-  color: #264A73;
+  color: #A8D2C1;
 }
 
 #kudos h3.heading::before,
@@ -2430,8 +2430,8 @@ img[src$="/images/lockblue.png"] {
   content: url("https://64.media.tumblr.com/758487a35732e7abee4d750b2ac105b9/855358a45e824f08-d2/s1280x1920/e18616c3061e4f6ba39b4cb6d50a2d12ffffc056.png") !important;
   height: 14px !important;
   width: auto !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
   vertical-align: middle !important;
 }
 
@@ -2459,8 +2459,8 @@ img[src$="/images/lockblue.png"] {
   background-repeat: repeat-x !important;
   background-position: center bottom !important;
   background-size: 110px auto !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 body.tags-show .primary.header.module .icon,
@@ -2653,8 +2653,8 @@ body .menu span.selected::after {
   background-repeat: repeat-x !important;
   background-position: center center !important;
   background-size: auto 100% !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 #workskin hr {
@@ -2665,8 +2665,8 @@ body .menu span.selected::after {
   background-repeat: repeat-x !important;
   background-position: center center !important;
   background-size: auto 100% !important;
-  filter: invert(25%) sepia(60%) saturate(400%)
-          hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)
+           hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 .listbox,
@@ -3841,7 +3841,7 @@ body[class*="collection"] #main dl.index {
 }
 
 #header.region.collection h2.collections {
-  color: #7fa7c9 !important;
+  color: #8FC6B5 !important;
   text-align: center;
   width: 100%;
 }
@@ -3862,7 +3862,7 @@ body[class*="collection"] #main dl.index {
   background-position: center !important;
   background-size: contain !important;
   opacity: 0.9 !important;
-  filter: invert(25%) sepia(60%) saturate(400%) hue-rotate(175deg) brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)  hue-rotate(120deg) brightness(82%) contrast(90%) !important;
 }
 
 #main ul.participant.pseud.index.group > li.user.pseud.picture.blurb.group {
@@ -3918,19 +3918,19 @@ body[class*="collection"] #main dl.index {
 
 li.work.blurb .header h4.heading a:first-of-type:visited,
 li.bookmark.blurb .header h4.heading a:first-of-type:visited {
-  color: #6F7FA8 !important;
+  color: #6EA98F !important;
 }
 
 li.work.blurb .header h4.heading a[href*="/users/"]:visited,
 li.bookmark.blurb .header h4.heading a[href*="/users/"]:visited {
-  color: #6F7FA8 !important;
+  color: #6EA98F !important;
 }
 
 li.work.blurb .header h4.heading a:first-of-type:visited:hover,
 li.bookmark.blurb .header h4.heading a:first-of-type:visited:hover,
 li.work.blurb .header h4.heading a[href*="/users/"]:visited:hover,
 li.bookmark.blurb .header h4.heading a[href*="/users/"]:visited:hover {
-  color: #5E6F9B !important;
+  color: #7DBAA0 !important;
 }
 
 #dashboard .hidden {
@@ -4019,8 +4019,8 @@ li.chapter .secondary input[type="submit"] {
   background-repeat: no-repeat, no-repeat !important;
   background-position: left top, right bottom !important;
   background-size: 85px auto, 85px auto !important;
-  filter: invert(25%) sepia(60%) saturate(400%) hue-rotate(175deg)
-          brightness(85%) contrast(90%) !important;
+  filter: invert(25%) sepia(60%) saturate(320%)  hue-rotate(120deg)
+          brightness(82%) contrast(90%) !important;
 }
 
 #main #user-series li.series.blurb .header,
@@ -4805,3 +4805,4 @@ ul.tags li a.tag:active {
   margin-left: 0 !important;
   padding-left: 0 !important;
 }
+
